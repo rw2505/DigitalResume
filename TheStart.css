@@ -10,8 +10,9 @@ li{
 	display: inline;
 	float; right;
 	padding: 10px;
-	border: solid blue 5px;
+	border: solid white 5px;
 }
+
 
 img{
 	width: 50%;
@@ -28,6 +29,7 @@ img{
 .pictures{
 	margin: 0 auto;
 	text-align: center;
+	width: 100%;
 	
 }
 
