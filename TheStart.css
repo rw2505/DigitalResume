@@ -5,12 +5,13 @@ body{
 
 }
 
-li{
-	list-style:none;
-	display: inline;
-	float; right;
-	padding: 10px;
-	border: solid white 5px;
+html {
+overflow-y: scroll;
+}
+
+ol li{
+text-align: center;
+
 }
 
 
@@ -34,6 +35,22 @@ img{
 }
 
 
+div{
+	float: none;
+}
+
+.RedText {
+	color: white;
+}
+
+.container { 
+	text-align: center;
+	margin: 0 auto;
+	width: 50%;
+}
+
+
+
 /**
 .fifty img{
 	width: 50%;
@@ -49,22 +66,14 @@ img{
 	float: right;
 }
 **/
-div{
-	float: none;
-}
 
-.RedText {
-	color: white;
-}
 
-.container { 
-	text-align: center;
-	margin: 0 auto;
-	width: 50%;
-}
 
 /**
 #verticalalign{
 	vertical-align: baseline;
-}
+
+}float; right;
+	padding: 10px;
+	border: solid white 5px;
 
